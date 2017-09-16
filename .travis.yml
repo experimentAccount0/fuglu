@@ -25,8 +25,8 @@ install:
 
 script:
   - python -m compileall fuglu/src/
-  - nosetests fuglu/tests/unit/ --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_fuglu_3fd1df5fba_0
-  - python -m properform Push 47.88.50.110:15554 asdf_fuglu_3fd1df5fba_0 ./profile_fuglu_3fd1df5fba_0
+  - nosetests fuglu/tests/unit/ --with-cprofile --cprofile-stats-erase --cprofile-stats-file=profile_fuglu_3fd1df5fba_1
+  - python -m properform Push 47.88.50.110:15554 asdf_fuglu_3fd1df5fba_1 ./profile_fuglu_3fd1df5fba_1
 
 
 
@@ -34,4 +34,4 @@ script:
 
 cache:
   apt: true
- #2017-09-16 13:12:11 modified at 0
+ #2017-09-16 13:12:11 modified at 0 #2017-09-16 13:12:17 modified at 1
